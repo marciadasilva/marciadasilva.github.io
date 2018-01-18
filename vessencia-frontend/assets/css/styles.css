@@ -847,6 +847,7 @@ footer p {
  flex-direction: row;
  flex-wrap: wrap;
  align-items: stretch;
+ justify-content: center;
  /* align-items: baseline; */
 }
 
