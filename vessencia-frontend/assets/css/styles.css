@@ -836,20 +836,67 @@ footer p {
 
 /* Menus Page */
 
+
+
 .cards {
-  display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
-  min-height: 100vh;
-  align-items: baseline;
-  grid-gap: 1em;
+ /* display: grid; */
+ /* grid-template-columns: repeat(auto-fill, minmax(400px, 1fr)); */
+ /* grid-gap: 1em; */
+ min-height: 100vh;
+ display: flex;
+ flex-direction: row;
+ flex-wrap: wrap;
+ align-items: stretch;
+ /* align-items: baseline; */
 }
 
 .cards .card{
-  text-align: center;
+ text-align: center;
+ width: 25%;
+ background: #fff;
+ margin: 1.3em;
+ transition: 0.7s;
+}
+
+.cards .card:hover{
+  opacity: 0.5;
 }
 
 .cards .card img{
+  height: 40vh;
 	display: block;
 	width: 100%;
 	/* box-shadow: -1px 0px 0px rgba(0,0,0,0.06); */
+}
+
+.cards .card .card-content{
+  height: 20vh;
+  background-color: #fff;
+}
+
+.cards .card h4{
+  text-align: center;
+}
+
+
+.cards .card p{
+  text-align: justify;
+}
+
+@media (max-width: 1100px) {
+ .cards .card{
+   width: 33.33%;
+ }
+}
+
+@media (max-width: 700px) {
+ .cards .card{
+   width: 50%;
+ }
+}
+
+@media (max-width: 500px) {
+ .cards .card{
+   width: 100%;
+ }
 }
