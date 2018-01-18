@@ -833,3 +833,23 @@ footer p {
   text-align: justify;
   max-width: none;
 }
+
+/* Menus Page */
+
+.cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
+  min-height: 100vh;
+  align-items: baseline;
+  grid-gap: 1em;
+}
+
+.cards .card{
+  text-align: center;
+}
+
+.cards .card img{
+	display: block;
+	width: 100%;
+	/* box-shadow: -1px 0px 0px rgba(0,0,0,0.06); */
+}
