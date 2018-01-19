@@ -14,7 +14,12 @@
 
 html {
   scroll-behavior: smooth;
-  font-family: Inconsolata;
+  /* font-family: Inconsolata; */
+  font-family: 'Montserrat', sans-serif;
+  /* font-family: 'Raleway', sans-serif; */
+/* font-family: 'Open Sans', sans-serif; */
+/* font-family: 'Alegreya Sans', sans-serif; */
+/* font-family: 'Roboto', sans-serif; */
 	color: #555;
   line-height: 1.5em;
   overflow-x: hidden;
@@ -638,10 +643,17 @@ header nav li a.expand_middle:hover:after{
 
 /*Packages Section*/
 
-.packages .grid li {
+.packages .grid a{
+  color: #555;
 	padding: 50px;
 	flex-basis: 50%;
 	text-align: center;
+  transition-duration: 0.4s;
+}
+
+.packages .grid a:hover{
+  color: var(--main-color);
+  box-shadow: 0 0 1em rgba(0,0,0,0.1);
 }
 
 .packages .grid li i {
@@ -951,7 +963,6 @@ footer p {
 .card-service{
   display: flex;
   flex-direction: row;
-  color: $dark_gray;
   background: #fff;
   margin-bottom: 1em;
   height: 65vh;
