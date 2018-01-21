@@ -2,7 +2,8 @@
 @import url(https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css);
 
 :root {
-  --main-color: #d1ba45;
+  /* --main-color: #d1ba45; */
+  --main-color: #b71c1c;
 	--main-color-dark: #b71c1c;
 }
 
@@ -705,7 +706,7 @@ header nav li a.expand_middle:hover:after{
 }
 
 .news .thumbnail .card:hover{
-  box-shadow: 0 0 2em rgba(209,186,69,0.6);
+  box-shadow: 0 0 2em rgba(183, 28, 28, 0.6);
 }
 
 .news .thumbnail .card a img{
