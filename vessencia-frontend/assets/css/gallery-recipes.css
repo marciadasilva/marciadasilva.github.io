@@ -40,3 +40,9 @@
 .more a.anim:hover{
   color: var(--main-color);
 }
+/* Gallery-recipes-detail Page */
+
+.recipe .recipe-img img{
+  width: 100vw;
+  height: 60vh;
+}
