@@ -1,0 +1,42 @@
+@import url(https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css);
+@import url('https://fonts.googleapis.com/css?family=Raleway:200');
+
+.recipes{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.recipes .recipes-item {
+  width: 27vw;
+  height: 60vh;
+  /* border: 1px solid red; */
+  margin: .5em;
+}
+
+.recipes .recipes-item a{
+  color: #555;
+  transition-duration: .4s;
+}
+
+.recipes .recipes-item:hover a{
+  color: var(--main-color);
+  opacity: 0.7;
+}
+
+.recipes .recipes-item a img{
+  width: 100%;
+  height: 80%;
+}
+
+.more a.anim{
+  color: #555;
+  margin: 0.5em;
+  padding: 0 20px;
+  float: right;
+  border-bottom: 2px solid var(--main-color);
+}
+
+.more a.anim:hover{
+  color: var(--main-color);
+}

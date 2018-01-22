@@ -706,7 +706,7 @@ header nav li a.expand_middle:hover:after{
 }
 
 .news .thumbnail .card:hover{
-  box-shadow: 0 0 2em rgba(183, 28, 28, 0.6);
+  box-shadow: 0 0 2em rgba(183, 28, 28,0.6);
 }
 
 .news .thumbnail .card a img{
