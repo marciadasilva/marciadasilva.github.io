@@ -9,9 +9,9 @@
 
 .recipes .recipes-item {
   width: 27vw;
-  height: 60vh;
+  height: 50vh;
   /* border: 1px solid red; */
-  margin: .5em;
+  margin: 0.5em;
 }
 
 .recipes .recipes-item a{

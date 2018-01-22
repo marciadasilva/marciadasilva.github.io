@@ -1132,3 +1132,20 @@ section.service-detail p{
   text-align: left;
   font-size: 0.8em;
 }
+
+/* News Page */
+.news-detail .title-news hr{
+  margin: 0 auto;
+  margin-bottom: 35px;
+}
+
+.news-detail p.date-time{
+  text-align: left;
+  font-size: 0.8em;
+  width: 100vw;
+}
+
+.news-detail .news-content img{
+  width: 25vw;
+  height: 50vh;
+}
