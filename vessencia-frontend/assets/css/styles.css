@@ -4,7 +4,7 @@
 :root {
   /* --main-color: #d1ba45; */
   --main-color: #b71c1c;
-	--main-color-dark: #b71c1c;
+	--main-color-dark: #555;
 }
 
 * {
