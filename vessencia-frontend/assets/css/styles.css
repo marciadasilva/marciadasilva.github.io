@@ -703,6 +703,7 @@ header nav li a.expand_middle:hover:after{
   text-align: center;
   margin: 0 1em;
   transition: 0.4s;
+  align-items: stretch;
 }
 
 .news .thumbnail .card:hover{
