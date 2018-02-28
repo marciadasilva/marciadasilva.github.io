@@ -1,0 +1,72 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  color: #444;
+  font-family: Cambria, Cochin, Georgia, 'Times New Roman', Times, serif;
+  font-size: 20px;
+}
+
+/* Top Nav */
+.top {
+  display: grid;
+  grid-gap: 1rem;
+  height: 3rem;
+  grid-template-columns: repeat(5, 1fr);
+  color: white;
+  background-color: #376284;
+}
+.top > * {
+  align-self: center;
+  justify-self: start;
+}
+.top > h1 {
+  font-size: 1.3rem;
+  font-weight: 300;
+}
+.top > img {
+  margin: 0;
+  padding: 0;
+  width: 20%;
+  height: 80%;
+  border-radius: 50%;
+}
+.top .logotipo,
+.top .profile-picture {
+  justify-self: end;
+}
+.top .company-name {
+  grid-column: 2 / -3;
+}
+
+/* body */
+main.admin {
+  display: grid;
+  grid-template-columns: 300px auto;
+}
+
+.navbar {
+  display: grid;
+  grid-template-rows: repeat(auto-fit, minmax(20px, 1fr));
+  background-color: #376284;
+}
+.user {
+  /* grid-row: 1 / -1; */
+  align-self: center;
+
+}
+.user img {
+  float: left;
+  width: 50%;
+  border-radius: 50%;
+  -webkit-shape-outside: circle();
+          shape-outside: circle();
+  margin-right: 2rem;
+}
+.user p {
+  color: white;
+
+}
