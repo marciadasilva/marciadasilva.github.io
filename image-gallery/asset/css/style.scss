@@ -12,7 +12,7 @@ html {
   font-size: 13px;
   font-family: 'Arvo', monospace;
 
-  @supports(display: grid) {
+  @supports (display: grid) {
     display: block;
   }
 }
@@ -23,7 +23,7 @@ html {
   font-size: 1.7vw;
   box-shadow: -2px 2px 10px 0px rgba(#444, 0.4);
 
-  @supports(display: grid) {
+  @supports (display: grid) {
     display: none;
   }
 }
@@ -36,7 +36,7 @@ html {
     padding: 4rem;
   }
 
-  @supports(display: grid) {
+  @supports (display: grid) {
     display: block;
   }
 }
@@ -72,41 +72,6 @@ h1 {
   transition: transform 0.3s ease-in-out;
   cursor: pointer;
   counter-increment: item-counter;
-
-<<<<<<< HEAD
-  &:nth-of-type(3n) {
-    background-image: url('https://images.unsplash.com/photo-1422255198496-21531f12a6e8?dpr=2&auto=format&fit=crop&w=1500&h=996&q=80&cs=tinysrgb&crop=');
-  }
-
-  &:nth-of-type(4n) {
-    background-image: url('https://images.unsplash.com/photo-1490914327627-9fe8d52f4d90?dpr=2&auto=format&fit=crop&w=1500&h=2250&q=80&cs=tinysrgb&crop=');
-  }
-
-  &:nth-of-type(5n) {
-    background-image: url('https://images.unsplash.com/photo-1476097297040-79e9e1603142?dpr=2&auto=format&fit=crop&w=1500&h=1000&q=80&cs=tinysrgb&crop=');
-  }
-
-  &:nth-of-type(6n) {
-    background-image: url('https://images.unsplash.com/photo-1464652149449-f3b8538144aa?dpr=2&auto=format&fit=crop&w=1500&h=1000&q=80&cs=tinysrgb&crop=');
-    // background-image: url('asset/img/21.jpg');
-  }
-=======
-  // &:nth-of-type(3n) {
-  //   background-image: url('https://images.unsplash.com/photo-1422255198496-21531f12a6e8?dpr=2&auto=format&fit=crop&w=1500&h=996&q=80&cs=tinysrgb&crop=');
-  // }
-  //
-  // &:nth-of-type(4n) {
-  //   background-image: url('https://images.unsplash.com/photo-1490914327627-9fe8d52f4d90?dpr=2&auto=format&fit=crop&w=1500&h=2250&q=80&cs=tinysrgb&crop=');
-  // }
-  //
-  // &:nth-of-type(5n) {
-  //   background-image: url('https://images.unsplash.com/photo-1476097297040-79e9e1603142?dpr=2&auto=format&fit=crop&w=1500&h=1000&q=80&cs=tinysrgb&crop=');
-  // }
-  //
-  // &:nth-of-type(6n) {
-  //   background-image: url('https://images.unsplash.com/photo-1464652149449-f3b8538144aa?dpr=2&auto=format&fit=crop&w=1500&h=1000&q=80&cs=tinysrgb&crop=');
-  // }
->>>>>>> 79de2c051ef6fc2054b66e5a72b0556fe2617b39
 
   &:after {
     content: '';
